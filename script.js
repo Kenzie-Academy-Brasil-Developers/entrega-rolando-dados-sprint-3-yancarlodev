@@ -20,7 +20,7 @@ function renderGraphics () {
     graphic.innerHTML = ''
 
     let inputValue = input.value
-    rollDice(inputValue || 1000)
+    rollDice(inputValue)
     graphicDescription.classList.add('visible')
 
     numbers.forEach((value, index) => {
