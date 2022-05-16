@@ -39,3 +39,5 @@ function renderGraphics () {
 }
 
 rollButton.addEventListener('click', renderGraphics)
+
+renderGraphics()
